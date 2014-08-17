@@ -1,0 +1,27 @@
+# Set aliases
+alias rm rm -i
+alias mv mv -i
+alias ls ls -G
+alias ll ls -la
+
+# Set prompt
+set prompt = "%{\033[32;1m%}%n%{\033[37m%}@%{\033[32m%}%m%{\033[37m%}: %{\033[34m%}%/ %{\033[37m%}%#%{\033[0m%} "
+
+# Set environment variables for Adobe Font Development Kit
+setenv FDK_EXE  /usr/local/bin/FDK/Tools/osx
+setenv PATH     ${PATH}:/usr/local/bin/FDK/Tools/osx
+
+# Set man page colors for tcsh/csh
+setenv PAGER "less -IRs"
+setenv LESS_TERMCAP_mb `echotc AF 0 1`
+setenv LESS_TERMCAP_md `echotc AF 0 2`
+setenv LESS_TERMCAP_me `echotc me`
+setenv LESS_TERMCAP_so `echotc AF 0 3; echotc AB 0 1`
+setenv LESS_TERMCAP_se `echotc me`
+setenv LESS_TERMCAP_us `echotc AF 0 6`
+setenv LESS_TERMCAP_ue `echotc me`
+
+# Set environment variables for Homebrew (located in custom /opt/homebrew)
+setenv PATH      ${PATH}:/opt/homebrew/bin
+set    MANPATH = `manpath`
+setenv MANPATH   ${MANPATH}:/opt/homebrew/share/man
