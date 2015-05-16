@@ -23,3 +23,4 @@ echo ""
 echo "Disk usage summary:"
 df -H | grep "/dev/" | awk '{printf "%4s used out of %4s (%4s available) on ", $3, $2, $4; for (i=9; i<=NF; i++) printf $i " "; printf "\n"}'
 echo ""
+
