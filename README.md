@@ -13,7 +13,7 @@ git clone git://github.com/lowellchow/dotfiles.git ~/.dotfiles
 Then symlink the desired dotfiles from the `.dotfiles` directory to the home directory. For example:
 
 ```terminal
-ln -s ~/.dotfiles/.tcshrc ~/.tcshrc
+ln -s ~/.dotfiles/tcshrc ~/.tcshrc
 ```
 
 ## Features
