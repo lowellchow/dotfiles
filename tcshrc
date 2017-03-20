@@ -21,7 +21,7 @@ setenv LESS_TERMCAP_se `echotc me`
 setenv LESS_TERMCAP_us `echotc AF 0 6`
 setenv LESS_TERMCAP_ue `echotc me`
 
-# Set environment variables for Homebrew (located in custom /opt/homebrew)
-setenv PATH      /opt/homebrew/bin:${PATH}
+# Set environment variables for Homebrew (located in custom /usr/local/homebrew)
+setenv PATH      /usr/local/homebrew/bin:${PATH}
 set    MANPATH = `manpath`
-setenv MANPATH   /opt/homebrew/share/man:${MANPATH}
+setenv MANPATH   /usr/local/homebrew/share/man:${MANPATH}
