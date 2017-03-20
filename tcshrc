@@ -1,5 +1,8 @@
 #!/bin/tcsh
 
+# Set command line preferences
+set autolist
+
 # Set aliases
 alias rm rm -i
 alias mv mv -i
