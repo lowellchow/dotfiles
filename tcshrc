@@ -3,6 +3,9 @@
 # Set command line preferences
 set autolist
 
+# Set preferred keybindings
+bindkey -v
+
 # Set aliases
 alias rm rm -i
 alias mv mv -i
