@@ -12,7 +12,7 @@ alias ll ls -la
 # Set prompt
 alias __git_changed 'if (`sh -c "git diff --shortstat 2> /dev/null | tail -n1"` !=  "") echo "*"'
 alias __git_branch_cmd 'sh -c "git branch --no-color 2> /dev/null" | sed -e "/^[^*]/d" -e "s/* \(.*\)/(\1`__git_changed`) /"'
-alias precmd 'set prompt = "%{\033[32;1m%}%n%{\033[37m%}@%{\033[32m%}%m%{\033[37m%}: %{\033[34m%}%/%{\033[37m%} `__git_branch_cmd`%#%{\033[0m%} "'
+alias precmd 'set prompt = "%{\033[32;1m%}%n%{\033[0m%}@%{\033[32m%}%m%{\033[0m%}: %{\033[34m%}%/%{\033[0m%} `__git_branch_cmd`%#%{\033[0m%} "'
 
 # Set man page colors for tcsh/csh
 setenv PAGER "less -IRs"

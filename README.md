@@ -36,4 +36,4 @@ The prompt displays the following information:
 
 - Username and hostname in green. This is useful in case I am running multiple remote terminal sessions.
 - Path to the current working directory in blue.
-- Git branch and dirty status (denoted with an asterisk) in white if the current working directory is a Git repository.
+- Git branch and dirty status (denoted with an asterisk) if the current working directory is a Git repository.
