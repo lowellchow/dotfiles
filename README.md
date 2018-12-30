@@ -7,7 +7,7 @@ These are a collection of some of the dotfiles I use to configure my working env
 To clone these dotfiles to a new machine, run the following command:
 
 ```terminal
-git clone git://github.com/lowellchow/dotfiles.git ~/.dotfiles
+git clone https://github.com/lowellchow/dotfiles.git ~/.dotfiles
 ```
 
 Then symlink the desired dotfiles from the `.dotfiles` directory to the home directory. For example:
