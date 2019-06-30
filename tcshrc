@@ -29,6 +29,9 @@ setenv PATH      /usr/local/homebrew/bin:${PATH}
 set    MANPATH = `manpath`
 setenv MANPATH   /usr/local/homebrew/share/man:${MANPATH}
 
+# Set environment variables for the Homebrew version of Ruby
+setenv PATH      /usr/local/homebrew/opt/ruby/bin:${PATH}
+
 # Set environment variables for RubyGems (located in custom /usr/local/gem)
 setenv GEM_HOME /usr/local/gem
 setenv PATH     ${GEM_HOME}/bin:${PATH}
