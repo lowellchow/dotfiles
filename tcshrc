@@ -34,4 +34,9 @@ setenv PATH      /usr/local/homebrew/opt/ruby/bin:${PATH}
 
 # Set environment variables for RubyGems (located in custom /usr/local/gem)
 setenv GEM_HOME /usr/local/gem
+setenv GEM_PATH ${GEM_HOME}
 setenv PATH     ${GEM_HOME}/bin:${PATH}
+
+# Set environment variables for Pip
+setenv PYTHONUSERBASE /usr/local/pip
+setenv PATH           ${PYTHONUSERBASE}/BIN:${PATH}
